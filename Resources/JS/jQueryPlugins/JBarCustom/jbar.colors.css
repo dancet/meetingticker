@@ -1,0 +1,33 @@
+.notification
+{
+	/*background-color: #99EE88;*/
+	background: #e8f2d3; /*#e5ffe7;*/ /*#F7FFF4;*/
+	border-top: 2px solid #6b8c27; 
+	border-bottom: 2px solid #6b8c27; 
+	color: #6b8c27;
+}
+
+.notification.warning
+{
+	background: #fff4f5;
+	border-top: 2px solid #cd0a0a; 
+	border-bottom: 2px solid #cd0a0a; 
+	color: #cd0a0a;
+	
+}
+
+.notification.info
+{
+	background: #e6edfd;
+	border-top: 2px solid #1a5cf3; 
+	border-bottom: 2px solid #1a5cf3; 
+	color: #1a5cf3;
+	
+}
+
+
+
+.notification.test
+{
+	background-color: #FFEE65;
+}

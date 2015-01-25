@@ -1,0 +1,265 @@
+﻿body 
+{
+	font-family: Arial, Sans-Serif;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	background-color: #e5e5e5;
+}
+
+a img /* to deal with IE...sigh */
+{
+  border:none;
+}
+
+div.normalContainer
+{
+	width: 920px;
+	margin: 0 auto;
+}
+
+.headerContainer
+{
+	padding-top: 20px;    
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.title
+{
+	font-size: 2.25em;
+}
+
+.navBox
+{
+	float: right;
+	padding-top: 2px;
+	padding-right: 4px;
+}
+
+.navBox ul 
+{ 
+    margin: 0;
+    list-style-type: none; 
+    font-size: 1.25em;
+} 
+
+.navBox ul li 
+{  
+    display: inline; 
+} 
+ 
+.navBox ul li a 
+{ 
+    text-decoration: none;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    color: #626262; 
+    display:inline-block;		/*This is needed for IE7*/
+} 
+ 
+.navBox ul li a:hover 
+{ 
+    color: #000;
+    background-color: #DCDCDC;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px #898989;
+} 
+
+.itemContainer
+{
+	color: #FFFFFF;
+	background-color: #4c4c4c;
+    box-shadow: 0px 0px 10px 3px #656565;
+}
+
+.itemDetails
+{
+	padding-top: 20px;    
+	padding-bottom: 20px;
+}
+
+.agendaItem
+{
+	width: 720px;
+	font-size: 2.5em;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.agendaTime
+{
+	width: 170px;
+	font-size: 3.75em;
+	font-weight: bold;
+	padding-left: 26px;
+	padding-top: 8px;
+	text-align: right;
+	color: #d68900;
+}
+
+.agendaContainer
+{
+	padding-top: 20px;    
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.agendaContainer textarea
+{
+	width: 900px;
+	height: 200px;
+	border: 0px solid #000000;
+	padding: 8px;
+	font-family: Arial, Sans-Serif;
+	font-size: 1.0em;
+	line-height: 1.25em;
+}
+
+#agendaItemsReadOnly
+{
+	margin-left: 9px;
+	padding-left: 9px;	
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 1.0em;
+	line-height: 1.25em;
+	list-style-type: circle;
+}
+
+.horizontalDivider 
+{
+	border: 0;
+	height: 2px;
+	color: #C6C6C6;				/*This is needed for IE*/
+	background-color: #C6C6C6;	/*This is needed for FF/Chrome*/
+	margin-bottom: 0;
+}
+
+.buttonsLeft
+{
+	width: 30%;
+	float: left;    
+	padding-top: 5px;
+}
+
+.buttonsCentre
+{
+    width: 40%;
+    float: left;
+    padding-top: 7px;    
+    font-size: 1.25em;
+    line-height: 1.625em;
+    text-align: center; 
+}
+
+.agendaUrl
+{
+    text-decoration: none;
+    color: #626262;  
+}
+
+.agendaUrl:hover
+{
+    color: #000000;  
+}
+
+.buttonsRight
+{
+	width: 30%;
+	float: left;
+	padding-top: 5px;
+	text-align: right;
+}
+
+.sharing
+{
+    padding-top: 40px;
+    text-align: center;    
+    font-size: 1.0em;
+}
+
+.about
+{
+	padding-top: 40px;    
+	padding-bottom: 40px;   
+}
+
+.about p
+{
+	font-size: 1.0em;
+	line-height: 1.25em;    	
+}
+
+.about ul
+{
+	margin-left: 30px;
+	padding-left: 9px;	
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 1.0em;
+	line-height: 1.25em;
+	list-style-type: circle;    
+}
+
+.aboutLinks
+{
+    text-decoration: none;
+    color: #121212;  
+}
+
+.aboutLinks:hover
+{
+    color: #BBBBBB;  
+}
+
+div.inline
+{
+	float: left;
+}
+
+.clearBoth
+{
+    clear:both;
+    height:0;
+    width:0;
+    margin:0;
+    padding:0;
+    line-height:0;
+    overflow: hidden;
+    font-size:0px;
+}
+
+/*  BUTTON STYLES
+	lifted from here: http://papermashup.com/pretty-css3-buttons/
+ */
+.button, .button:visited {
+	background: #222; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	position: relative;
+	cursor: default;
+}
+ 
+.button:hover                               { background-color: #111; color: #fff; }
+.button:active							    { top: 1px; }
+.small.button, .small.button:visited 		{ font-size: 0.6em}
+.button, .button:visited,
+.medium.button, .medium.button:visited 		{ font-size: 0.8125em; font-weight: bold; line-height: 1.0em; }
+.large.button, .large.button:visited 		{ font-size: 0.875em; padding: 8px 14px 9px; } 
+.super.button, .super.button:visited 		{ font-size: 2.125em; padding: 8px 14px 9px; }
+.green.button, .green.button:visited		{ background-color: #6b8c27; }
+.green.button:hover						    { background-color: #587320; }
+.red.button, .red.button:visited			{ background-color: #cd0a0a; }
+.red.button:hover							{ background-color: #a50808; }
+.black.button, .black.button:visited        { background-color: #969696; }
+.black.button:hover                         { background-color: #707070; }
+.mustard.button, .mustard.button:visited    { background-color: #d68900; }
+.mustard.button:hover                       { background-color: #a36800; }
